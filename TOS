@@ -1,0 +1,282 @@
+Baezy Bot Terms of Service
+
+Effective Date: July 20, 2026
+Bot Name: Baezy
+Prefix: !
+Current Version: Beta 0.7.0
+
+1. Acceptance of Terms
+
+By inviting, using, interacting with, or allowing Baezy to operate in a Discord server, you agree to these Terms of Service. These terms apply to all users, moderators, administrators, server owners, and communities where Baezy is present.
+
+If you do not agree with these terms, you should not use Baezy and may remove the bot from your server.
+
+2. About Baezy
+
+Baezy is a custom Discord bot designed to provide community, moderation, utility, entertainment, reaction-role, and Twitch-related features.
+
+Baezy may provide features including, but not limited to:
+
+General bot and server information commands
+Fun and community flavor commands
+Moderation commands and moderation case logging
+Deleted-message logging
+Reaction role assignment
+Automatic role assignment for new members
+Twitch go-live notifications
+Polls, embeds, color tools, and administrative posting tools
+Bot status, changelog, and help documentation
+
+Baezy is currently under active development and may change over time.
+
+3. Eligibility
+
+Baezy is intended for use within Discord servers and must be used in accordance with:
+
+Discord’s Terms of Service
+Discord’s Community Guidelines
+The rules of any server where Baezy is used
+Any applicable local, state, national, or international laws
+
+Server owners and administrators are responsible for ensuring that Baezy is used appropriately within their communities.
+
+4. Server Owner and Administrator Responsibility
+
+By adding Baezy to a server, the server owner or authorized administrator confirms that they have permission to add bots and manage bot permissions within that server.
+
+Server owners and administrators are responsible for:
+
+Configuring Baezy’s permissions appropriately
+Ensuring Baezy’s role is placed correctly in the Discord role hierarchy
+Deciding which channels Baezy can access
+Deciding which users may access moderation, administrator, or owner-level commands
+Reviewing how Baezy’s logging features are used
+Informing server members when moderation or message logging features are active, where appropriate
+
+Baezy’s developer is not responsible for misuse caused by improper server configuration, excessive permissions, or unauthorized access granted by server staff.
+
+5. User Conduct
+
+Users may not use Baezy to:
+
+Harass, threaten, abuse, or target other users
+Evade server moderation
+Spam commands, mentions, embeds, polls, or reactions
+Attempt to crash, overload, exploit, or disrupt the bot
+Use bot features to violate Discord’s Terms of Service
+Use administrative tools, such as !speak or !embed, to impersonate others in a harmful or deceptive way
+Abuse reaction roles, auto-roles, or role assignment features
+Use Baezy for illegal, malicious, or harmful activity
+
+Baezy may refuse to respond, fail safely, or be removed from servers where misuse occurs.
+
+6. Command Access and Permissions
+
+Some Baezy commands are available to all members, while others require Discord permissions or special access.
+
+Examples include:
+
+Moderation commands may require permissions such as Ban Members, Moderate Members, Manage Messages, or Manage Channels
+Administrative commands may require Administrator
+Restart and system-check commands may be restricted to approved user IDs
+Reaction roles and auto-role features require Baezy to have Manage Roles
+Twitch announcements may require permissions to mention roles or @everyone
+
+Baezy follows Discord’s permission system where applicable, but server owners are responsible for ensuring that permissions are assigned safely.
+
+7. Moderation Features
+
+Baezy may include moderation tools such as:
+
+User information lookup
+Ban and unban commands
+Timeout and untimeout commands
+Message purge commands
+Channel lock and unlock commands
+Moderation case logging
+Deleted-message logging
+
+Moderation actions may be recorded in local bot data files, such as modlogs.json, depending on the feature used.
+
+Baezy’s moderation tools are intended to assist server staff, but final responsibility for moderation decisions belongs to the server’s staff team.
+
+Baezy does not determine whether a moderation action is fair, appropriate, or justified. It only performs actions requested by authorized users.
+
+8. Deleted Message Logging
+
+If enabled, Baezy may log deleted messages to a configured Discord channel.
+
+Deleted-message logs may include:
+
+The original message author
+The channel where the message was deleted
+The message ID
+The deleted text content, if available
+Attachment links, if available
+
+Discord does not always provide bots with full information about deleted messages. Baezy may not be able to determine who deleted a message unless additional audit-log-based functionality is added.
+
+Server owners and administrators are responsible for deciding whether deleted-message logging is appropriate for their community and for informing users where required.
+
+9. Reaction Roles and Auto-Roles
+
+Baezy may assign or remove roles based on:
+
+A user joining the server
+A user reacting to a configured reaction-role message
+A user removing a reaction from a configured reaction-role message
+
+Reaction-role systems may use standard Unicode emojis or custom Discord emoji IDs.
+
+Baezy can only assign or remove roles that are below Baezy’s highest role in the Discord role hierarchy. If role assignment fails, server administrators are responsible for checking Baezy’s permissions and role placement.
+
+10. Twitch Notifications
+
+Baezy may check Twitch for configured streamers and post go-live notifications in configured Discord channels.
+
+Twitch notification features may include:
+
+Streamer name
+Stream title
+Game or category
+Viewer count
+Twitch stream link
+Stream thumbnail
+Role pings or @everyone mentions, depending on configuration
+
+Baezy relies on Twitch API availability and correct Twitch application credentials. Twitch-related features may fail or be delayed if Twitch is unavailable, if credentials are invalid, or if the bot lacks permission to post in the configured Discord channel.
+
+11. Entertainment and Randomized Commands
+
+Baezy includes entertainment commands such as romance checks, vibe checks, joke commands, randomized reports, mock text, and other playful outputs.
+
+These commands are intended for fun and should not be interpreted as factual, serious, personal, medical, psychological, legal, financial, or professional assessments.
+
+Users and server staff are responsible for ensuring that entertainment commands are used in a respectful and appropriate way.
+
+12. Data Collection and Storage
+
+Baezy may process or temporarily access Discord data necessary to operate its features.
+
+Depending on configuration and usage, Baezy may process or store:
+
+Discord user IDs
+Discord usernames or display names
+Discord server IDs and names
+Discord channel IDs and names
+Role IDs
+Message IDs
+Moderation case information
+Reasons provided for moderation actions
+Deleted message content, if deleted-message logging is enabled
+VIP or Member of the Day history
+Restart confirmation data
+Reaction-role configuration data
+Twitch stream information received from Twitch’s API
+
+Baezy does not require users to create accounts outside of Discord.
+
+13. Data Persistence
+
+Some Baezy data may be stored locally on the server hosting the bot.
+
+Examples may include:
+
+data/modlogs.json
+data/vip_history.json
+data/restart_notice.json
+Bot configuration files
+Runtime logs
+System journal logs
+
+Some data is temporary and may be deleted automatically, while other data may persist until manually removed by the bot owner or server administrator.
+
+14. Data Sharing
+
+Baezy does not sell user data.
+
+Baezy may send data to third-party services only as needed for normal operation. For example:
+
+Discord receives and processes bot commands, messages, reactions, role changes, and moderation actions
+Twitch may be contacted to check whether configured streamers are live
+The hosting provider may process server logs, runtime activity, or system metrics
+
+Baezy’s developer or operator may review logs for troubleshooting, maintenance, abuse prevention, or debugging.
+
+15. Data Removal
+
+Server owners or authorized administrators may request removal of locally stored Baezy data where technically possible.
+
+Some Discord-side data, such as sent messages, embeds, reactions, or audit logs, may need to be removed directly within Discord.
+
+Some operational logs may remain temporarily in server logs or system journals until they expire or are manually cleared.
+
+16. Availability and Reliability
+
+Baezy is provided on a best-effort basis.
+
+Baezy may be unavailable, delayed, restarted, updated, or temporarily disabled due to:
+
+Bot updates
+Server maintenance
+Hosting provider issues
+Discord outages or API issues
+Twitch API issues
+Code errors or dependency problems
+Permission changes
+Rate limits
+Configuration errors
+
+No guarantee is made that Baezy will be available at all times or that all commands will always function perfectly.
+
+17. Beta Status and Updates
+
+Baezy is currently in beta development. Features may be added, changed, renamed, removed, or reorganized over time.
+
+Version numbers, changelogs, documentation, and help commands are provided to improve transparency, but they may occasionally lag behind the actual code.
+
+Continued use of Baezy after updates means you accept the updated behavior of the bot.
+
+18. Limitation of Liability
+
+Baezy is provided “as is” without warranties of any kind.
+
+To the fullest extent permitted by law, Baezy’s developer, operator, or maintainers are not responsible for:
+
+Misuse of bot commands
+Incorrect server permissions
+Accidental moderation actions
+Deleted messages or logged content
+Failed role assignments
+Failed announcements
+Downtime or service interruptions
+Data loss caused by server changes, deletion, corruption, or manual edits
+Conflicts between server staff or users
+Any damages resulting from use or inability to use the bot
+
+Server owners and administrators are responsible for reviewing bot permissions and using moderation tools carefully.
+
+19. Termination and Removal
+
+Baezy may be removed from a server at any time by the server owner or authorized administrators.
+
+Baezy’s developer or operator may also disable, restrict, or remove bot access if:
+
+The bot is being abused
+The bot is being used to violate Discord’s Terms of Service
+The server creates security, legal, or operational risk
+The bot is being exploited or intentionally disrupted
+Continued operation is no longer feasible
+20. Changes to These Terms
+
+These Terms of Service may be updated over time as Baezy changes.
+
+Changes may be reflected in bot documentation, a support server, a Discord channel, a GitHub repository, or another location chosen by the bot operator.
+
+Continued use of Baezy after changes are published means you accept the updated Terms of Service.
+
+21. Contact
+
+For questions, support, bug reports, data removal requests, or concerns about Baezy, contact the bot owner or server administrator responsible for the server where Baezy is installed.
+
+For servers directly managed by Baezy’s owner, contact the bot owner through the appropriate Discord support or administrative channel.
