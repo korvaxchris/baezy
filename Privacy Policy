@@ -1,0 +1,420 @@
+Baezy Bot Privacy Policy
+
+Effective Date: July 20, 2026
+Bot Name: Baezy
+Prefix: !
+Current Version: Beta 0.7.0
+
+1. Introduction
+
+This Privacy Policy explains what information Baezy may access, process, store, or display while operating in Discord servers.
+
+Baezy is a custom Discord bot designed to provide community tools, moderation features, reaction roles, Twitch go-live notifications, utility commands, entertainment commands, and server-management support.
+
+By using Baezy, interacting with Baezy, or allowing Baezy to operate in a Discord server, you acknowledge that Baezy may process certain Discord-related information as described in this Privacy Policy.
+
+2. Scope of This Policy
+
+This Privacy Policy applies to Baezy’s operation within Discord servers where it has been added.
+
+This policy covers:
+
+Commands sent to Baezy
+Messages Baezy can access for enabled features
+Reaction-role interactions
+Moderation actions performed through Baezy
+Deleted-message logging, if enabled
+Auto-role assignment
+Twitch go-live notification features
+Data stored locally by Baezy
+Bot runtime logs and troubleshooting information
+
+This policy does not control Discord’s own collection or use of data. Discord’s own Terms of Service and Privacy Policy apply separately.
+
+3. Information Baezy May Access
+
+Depending on the server configuration, bot permissions, and features used, Baezy may access or process the following types of information:
+
+Discord User Information
+
+Baezy may process:
+
+Discord user IDs
+Usernames
+Display names
+Server nicknames
+Avatar URLs
+Bot account status
+Account creation dates
+Server join dates
+Role membership
+Permission information
+Boosting status, where available
+Whether a user is a server member, where available
+
+This information may be used by commands such as !uinfo, !id, !roleinfo, moderation commands, reaction roles, auto-role systems, and logging features.
+
+Discord Server Information
+
+Baezy may process:
+
+Server IDs
+Server names
+Member counts
+Owner information
+Channel IDs
+Channel names
+Role IDs
+Role names
+Role colors
+Role permissions
+Server-specific command context
+
+This information may be used for server information commands, moderation tools, reaction roles, role assignment, logging, and troubleshooting.
+
+Message Information
+
+Baezy may process message-related information when needed for bot features.
+
+This may include:
+
+Message content sent as bot commands
+Message IDs
+Channel IDs where commands are used
+Attachments included with commands
+Links or text included in commands
+Poll questions and options
+Embed titles and descriptions
+Content passed into administrative posting commands such as !speak or !embed
+
+Baezy may also process deleted-message content if deleted-message logging is enabled in the server.
+
+4. Information Baezy May Store
+
+Baezy may store limited information locally on the server where the bot is hosted.
+
+Stored data may include:
+
+Moderation Logs
+
+Baezy may store moderation case data in files such as:
+
+data/modlogs.json
+
+Moderation logs may include:
+
+Case ID
+Moderation action type
+Target user ID
+Target username
+Moderator user ID
+Moderator username
+Reason provided
+Timestamp
+Extra case details, such as channel ID, duration, or previous ban reason
+
+This data is used for moderation history commands such as !case, !cases, !modlogs, and !history.
+
+VIP / Member of the Day History
+
+Baezy may store Member of the Day or VIP selection history in files such as:
+
+data/vip_history.json
+
+This may include:
+
+Server ID
+Server name
+Selected user ID
+Selected username or display name
+Selecting administrator ID
+Selecting administrator username
+Timestamp
+
+This is used to prevent the same member from being selected again within the configured cooldown period.
+
+Restart Notices
+
+Baezy may temporarily store restart-related information in files such as:
+
+data/restart_notice.json
+
+This may include:
+
+Channel ID where restart was requested
+User ID of the requester
+Timestamp or restart context
+
+This data is temporary and is used so Baezy can post a confirmation message after restarting.
+
+Reaction Role Configuration
+
+Reaction-role mappings may be stored in code or configuration. These mappings may include:
+
+Message IDs
+Emoji characters or custom emoji IDs
+Role IDs
+
+Baezy uses this information to assign or remove roles when users add or remove reactions.
+
+Runtime Logs
+
+Baezy may generate runtime logs through system logs or service journals.
+
+Logs may include:
+
+Startup messages
+Cog loading messages
+Error messages
+Permission failures
+Twitch API errors
+Reaction-role success or failure messages
+Auto-role success or failure messages
+Moderation logging errors
+Debugging or troubleshooting output
+
+These logs are used for maintenance, debugging, security review, and stability monitoring.
+
+5. Deleted Message Logging
+
+If enabled, Baezy may log deleted messages to a configured Discord channel.
+
+Deleted-message logs may include:
+
+Original message author
+Original author user ID
+Channel where the message was deleted
+Channel ID
+Message ID
+Deleted message text content, if available
+Attachment links, if available
+Timestamp of the log entry
+
+Discord does not always provide complete information about message deletion events. Baezy may not be able to determine who deleted a message unless additional audit-log-based functionality is enabled.
+
+Deleted-message logging should only be used by server owners or administrators who understand and accept the privacy implications of logging deleted content.
+
+Server administrators are responsible for informing their community if deleted-message logging is active where required by server rules, platform expectations, or applicable law.
+
+6. Command Processing
+
+When users run Baezy commands, Baezy may process the command text and related Discord context.
+
+For example:
+
+!uinfo may process a user mention or user ID
+!ban may process a target user ID and reason
+!timeout may process a target member, duration, and reason
+!poll may process poll questions and options
+!speak may process a target channel and message content
+!embed may process a target channel, title, color, and description
+!color may process a hex code or color request
+!reaction roles functionality may process reaction events
+
+Command data is generally used only to complete the requested command. Some command data may be stored if it is part of moderation logs, VIP history, restart notices, or other persistent bot features.
+
+7. Role Assignment Data
+
+Baezy may process role assignment events for features such as:
+
+Auto-role assignment when a user joins
+Reaction roles
+Moderation role checks
+Permission-based command access
+
+For these features, Baezy may process:
+
+User IDs
+Server IDs
+Role IDs
+Reaction emoji IDs or emoji text
+Message IDs for reaction-role messages
+
+Baezy does not use role data for advertising or profiling. Role data is used only to perform server-management functions.
+
+8. Twitch Data
+
+Baezy may use the Twitch API to check whether configured Twitch streamers are live.
+
+Baezy may process Twitch-related data such as:
+
+Twitch streamer login names
+Stream IDs
+Stream titles
+Stream categories or games
+Viewer counts
+Stream thumbnails
+Twitch stream URLs
+
+This data is used to post go-live notifications in configured Discord channels.
+
+Baezy does not collect Twitch account credentials from ordinary Discord users. Twitch API credentials used by the bot are configured privately by the bot operator and should not be shared publicly.
+
+9. Attachments and Media
+
+Some Baezy commands may process attachments or media.
+
+For example:
+
+!speak may copy uploaded attachments and repost them in a selected channel
+!shesaid may post a local GIF asset
+Embed commands may include links or text supplied by administrators
+
+When attachments are copied through Baezy, the bot processes the attachment only as needed to complete the requested command.
+
+Users should not submit sensitive, private, or confidential files to Baezy unless they understand where the bot will repost them.
+
+10. What Baezy Does Not Intentionally Collect
+
+Baezy does not intentionally collect:
+
+Passwords
+Payment card numbers
+Government identification numbers
+Private Discord direct messages
+Discord account login credentials
+Full Discord account profiles beyond what Discord exposes to bots
+Sensitive personal information unrelated to bot functionality
+
+Baezy should not be used to request, store, or transmit sensitive personal information.
+
+Users and administrators should avoid entering private or sensitive data into bot commands.
+
+11. Direct Messages
+
+Baezy is primarily designed to operate inside Discord servers.
+
+Unless specifically configured otherwise, Baezy does not rely on private direct messages for its main features.
+
+If a user sends a direct message to Baezy, the bot may receive that message through Discord, but Baezy may not respond or may only process it according to available bot functionality.
+
+Users should not send sensitive information to Baezy through direct messages.
+
+12. Data Sharing
+
+Baezy does not sell personal data.
+
+Baezy may share or transmit information only as needed for normal operation, including:
+
+Sending messages, embeds, logs, and role changes through Discord
+Checking Twitch stream status through Twitch’s API
+Storing runtime logs on the hosting server
+Allowing the bot owner or authorized maintainer to review logs for troubleshooting
+
+Baezy’s data may also be processed by infrastructure providers used to host or operate the bot, such as the server hosting provider.
+
+13. Access to Stored Data
+
+Stored Baezy data may be accessible to:
+
+The bot owner
+Authorized maintainers
+Server administrators with access to configured log channels
+Users with permission to run relevant commands, such as moderation history commands
+Hosting infrastructure administrators, where technically applicable
+
+Access should be limited to people who need it for moderation, operation, security, or maintenance.
+
+14. Data Retention
+
+Baezy retains data only as long as needed for the feature or administrative purpose involved.
+
+Examples:
+
+Moderation logs may be retained until manually deleted or archived
+VIP history may be retained to enforce cooldowns and preserve history
+Restart notice data is temporary and may be deleted after restart confirmation
+Runtime logs may be retained according to server or system journal settings
+Reaction-role mappings may remain as long as the reaction-role system is active
+Deleted-message logs may remain in Discord channels until manually removed according to server policy
+
+Server owners or bot operators are responsible for setting retention practices appropriate for their community.
+
+15. Data Removal Requests
+
+Users may request removal of data associated with them where technically possible.
+
+Depending on the type of data, removal may need to be performed by:
+
+The bot owner
+A server administrator
+A moderator with access to relevant Discord channels
+The hosting server operator
+
+Some data may be difficult or impossible to fully remove if it exists in:
+
+Discord audit logs
+Discord message history
+Server backups
+System logs
+Moderation records needed for server safety
+Third-party platform logs
+
+Requests should be directed to the server owner, bot owner, or appropriate administrative contact.
+
+16. Security
+
+Baezy’s operator should take reasonable steps to protect bot data and credentials.
+
+Recommended security practices include:
+
+Keeping .env private
+Never sharing the Discord bot token publicly
+Regenerating tokens immediately if exposed
+Limiting server access to trusted maintainers
+Restricting powerful commands to trusted users
+Keeping Baezy’s role below only necessary administrative roles
+Avoiding unnecessary bot permissions
+Reviewing logs after crashes or permission errors
+Backing up important data files before major changes
+
+No system is perfectly secure, and Baezy is provided on a best-effort basis.
+
+17. Children and Age Requirements
+
+Baezy operates on Discord and is intended for use by Discord users who meet Discord’s age requirements.
+
+Baezy does not knowingly collect information from users outside the context of normal Discord server operation.
+
+Server owners are responsible for managing their communities in accordance with Discord’s rules and any applicable age-related requirements.
+
+18. International Users
+
+Baezy may be used in Discord servers with users from different regions.
+
+By using Baezy, users acknowledge that information may be processed through Discord, Twitch, the bot’s hosting provider, and the bot’s operating server, which may be located in different jurisdictions.
+
+Server owners should consider applicable privacy obligations for their own communities.
+
+19. Third-Party Services
+
+Baezy depends on third-party services for operation.
+
+These may include:
+
+Discord, for messages, roles, servers, reactions, moderation actions, and bot interactions
+Twitch, for stream live-status checks and stream metadata
+Hosting providers, for running the bot and storing runtime files/logs
+
+These third-party services have their own terms and privacy policies. Baezy does not control how those third parties process data.
+
+20. Changes to This Privacy Policy
+
+This Privacy Policy may be updated as Baezy changes.
+
+Updates may occur when:
+
+New commands are added
+New logging features are added
+Data storage behavior changes
+Twitch or Discord integrations change
+Security or moderation systems change
+Documentation is updated
+
+Continued use of Baezy after changes are published means you acknowledge the updated Privacy Policy.
+
+21. Contact
+
+For privacy questions, data removal requests, bug reports, or concerns about Baezy, contact the bot owner or server administrator responsible for the server where Baezy is installed.
+
+For servers directly managed by Baezy’s owner, contact the bot owner through the appropriate Discord support or administrative channel.
